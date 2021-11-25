@@ -1,7 +1,7 @@
 /*
-    path:api/login
-
+    Path: api/login
 */
+
 const { Router } = require('express');
 const { check } = require('express-validator');
 const { crearUsuario, login, renewToken } = require('../controllers/auth');

@@ -16,12 +16,12 @@ const UsuarioSchema = Schema({
 
     password: {
         type: String,
-        required: true        
+        required: true
     },
 
     online: {
         type: Boolean,
-        default: false        
+        default: false
     }    
 
 });
